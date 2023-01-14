@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Open+Sans:ital@0;1&family=Poppins:wght@400;500&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+   height: 1190px;
+   width: 100%;
+  background: rgba(255, 144, 14, 0.1);
+}
+ /* ...............
+ header section style 
+ .................... */
+
+.architects-intro{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 25px;
+}
+.architects-name{
+    margin-top: 25px;
+}
+.architects-link{
+    text-decoration: none;
+    list-style: none;
+    margin: 25px 20px;
+    display: flex;
+    gap: 15px;
+}
+.architects-header{
+    justify-content: center;
+}
+.architects-title{
+    position: absolute;
+    width: 862px;
+    height: 200px;
+    left: 320px;
+    top: 155px;
+     text-align: center;
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 109px;
+    color: #131313;
+}
+.architects-details{
+    position: absolute;
+    width: 868px;
+    height: 52px;
+    left: 344px;
+    top: 394px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+}
+.button-primary{
+    position: absolute;
+    width: 144px;
+    height: 42px;
+    left: 728px;
+    top: 510px;
+    border: none;
+    background: #FF900E;
+    border-radius: 8px;
+}
+.button-details{
+    border: none;
+    color: azure;
+    text-decoration: none;
+    
+}
+.architech-banner{
+    position: absolute;
+    width: 800px;
+    height: 450px;
+    left: 360px;
+    top: 712px;
+}
+.architech-banner img{
+    height: 100%;
+    width: 100%;
+}
+.features{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    margin-top: 75px;
+    margin-left: 85px;
+    justify-content: space-between;
+}
+.features-banner{
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.features-info{
+    margin-top: 213px;
+    margin-left: 60px;
+}
+.features-title{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 63px;
+    margin-bottom: 10px;
+}
+
+#quic{
+    color: #727272;
+}
+#our{
+    color: #131313;
+}
+#features{
+    color: #FF900E;
+}
+.features-details{
+    width: 372px;
+    font-weight: 400;
+    font-size: 11px;
+    margin-top: 18px;
+   color: #727272;
+}
+.features-button{
+   
+}
+.button-details{
+   
+
+}
+.all-features{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 96px;
+    align-items: center;
+}
+.enjoy-features{
+    height: 800px;
+    width: 412px;
+    margin-left: 85px;
+    margin-top: 98px;
+}
+.enjoy-title{
+    display: flex;
+}
+.title-border{
+    width: 5px;
+    height: 106px;
+    background: #FF900E;
+}
+.enjoy-title-name{
+    position: absolute;
+    width: 468px;
+    height: 106px;
+    left: 116px;
+    top: 2164px;
+    font-size: 44px;
+    line-height: 53px;
+    color: rgb(19, 19, 19);
+}
+.enjoy-title-details{
+    width: 586px;
+    height: 78px;
+    left: 268px;
+    margin-top: 122px;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 15px;
+    color: #727272;
+}
+.features-desktop{
+    height: 96px;
+    width: 100%;
+    box-shadow: 2px 2px 2px 2px;
+    color: #d9d9d9;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.desktop-title{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 37px;
+    color: #131313;
+}
+.desktop-details{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+    color: #727272;
+}
+.features-banner img{
+    width: 100%;
+
+}
+.year{
+    height: 63px;
+    width: 108px;
+    background-color: #FF900E;
+    color: #fffefe;
+    margin-left: 691px;
+    margin-top: -317px; 
+}
+.fact{
+    margin-left: 85px;
+}
+.fact-title{
+    width: 258px;
+    height: 53px;
+    left: 240px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 53px;
+    color: #131313;
+}
+.fact-details{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    width: 646px;
+    color: #727272;
+}
+.achivment{
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+    margin-left: 295px;
+    margin-top: 316px;
+}
+.award{
+    height: 140px;
+    width: 140px;
+    border: 2px solid #FF900E;
+}
+.award-banner{
+    padding: 11px 43px;
+}
+.award-condition{
+    text-align: center;
+    font-size: 16px;
+    line-height: 58px;
+    color: #727272;
+}
+.award-digit{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 17px;
+    text-align: center;
+    color: #424242;
+}
+.sponsor{
+   justify-content: center;
+
+}
+.sponsor-title{
+    position: absolute;
+    width: 327px;
+    height: 53px;
+    left: 659px;
+    top: 3450px;
+    font-size: 36px;
+    line-height: 53px;
+    color: #131313;
+}
+.sponsor-details{
+    position: absolute;
+    width: 542px;
+    height: 52px;
+    left: 574px;
+    top: 3528px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #727272;
+}
+.sponsor-banner{
+    display: flex;
+    justify-content: center;
+    margin-top: 357px;
+    gap: 76px;
+}
+.copyright{
+    position: absolute;
+    width: 1082px;
+    height: 65px;
+    left: 240px;
+    top: 3866px;
+    background: #FFF4E7;
+    border-radius: 8px;
+}
+.copyright-details{
+    position: absolute;
+    width: 620px;
+    height: 23px;
+    left: 267px;
+    top: 38px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    color: #424242;
+
+}
