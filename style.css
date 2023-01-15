@@ -214,7 +214,7 @@ features collection style end here
     width: 445px;
     height: 106px;
     left: 113px;
-    top: 2088px;
+    top: 2320px;
     font-size: 44px;
     line-height: 53px;
     color: rgb(19, 19, 19);
@@ -276,8 +276,8 @@ year experience style
     text-align: center;
     background-color: #FF900E;
     color: #fffefe;
-    margin-top: -338px;
-    margin-left: 649px;
+    margin-top: -290px;
+    margin-left: 840px;
     text-align: center;
 }
 .year-details{
@@ -360,8 +360,8 @@ sponsor site style start
     position: absolute;
     width: 327px;
     height: 53px;
-    left: 659px;
-    top: 3450px;
+    left: 790px;
+    top: 3550px;
     font-size: 36px;
     line-height: 53px;
     color: #131313;
@@ -370,8 +370,8 @@ sponsor site style start
     position: absolute;
     width: 542px;
     height: 52px;
-    left: 574px;
-    top: 3528px;
+    left: 635px;
+    top: 3628px;
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
@@ -381,7 +381,8 @@ sponsor site style start
 .sponsor-banner{
     display: flex;
     justify-content: center;
-    margin-top: 357px;
+    margin-top: 300px;
+    margin-bottom: 150px;
     gap: 76px;
 }
 @media only screen and (max-width: 576px) {
@@ -399,7 +400,7 @@ sponsor style end here
     width: 1082px;
     height: 65px;
     left: 240px;
-    top: 3866px;
+    top: 3966px;
     background: #FFF4E7;
     border-radius: 8px;
 }
