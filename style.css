@@ -211,13 +211,14 @@ features collection style end here
 }
 .enjoy-title-name{
     position: absolute;
-    width: 52%;
+    width: 445px;
     height: 106px;
-    left: 116px;
-    top: 2164px;
+    left: 113px;
+    top: 2088px;
     font-size: 44px;
     line-height: 53px;
     color: rgb(19, 19, 19);
+
 }
 .enjoy-title-details{
     width: 56%;
@@ -378,8 +379,7 @@ sponsor site style start
     color: #727272;
 }
 .sponsor-banner{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
     justify-content: center;
     margin-top: 357px;
     gap: 76px;
