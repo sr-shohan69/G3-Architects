@@ -8,21 +8,31 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 header{
-   height: 1190px;
+   padding: 10px;
    width: 100%;
   background: rgba(255, 144, 14, 0.1);
 }
- /* ...............
- header section style 
- .................... */
+ /* ------------------
+ architects-intro model style
+ ------------------------ */
 
 .architects-intro{
     display: flex;
     justify-content: space-between;
     margin: 0px 25px;
 }
-.architects-name{
+.architects-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 65%;
+}
+.architects-link{
     margin-top: 25px;
+}
+.architects-name{
+    margin-top: 20px;
 }
 .architects-link{
     text-decoration: none;
@@ -31,60 +41,78 @@ header{
     display: flex;
     gap: 15px;
 }
+.architects-link li a{
+    text-decoration: none;
+    color: #131313;
+}
 .architects-header{
     justify-content: center;
 }
 .architects-title{
-    position: absolute;
-    width: 862px;
-    height: 200px;
-    left: 320px;
-    top: 155px;
-     text-align: center;
     font-weight: 700;
-    font-size: 43px;
-    line-height: 109px;
+    font-size: 5vh;
     color: #131313;
 }
 .architects-details{
-    position: absolute;
-    width: 868px;
-    height: 52px;
-    left: 344px;
-    top: 394px;
     font-weight: 400;
     font-size: 16px;
-    line-height: 26px;
-    text-align: center;
     color: #727272;
 }
-.button-primary{
-    position: absolute;
-    width: 144px;
-    height: 42px;
-    left: 728px;
-    top: 510px;
-    border: none;
-    background: #FF900E;
-    border-radius: 8px;
+.button-explore{
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
 }
-.button-details{
+.button-primary{
+    margin-left: 18px;
+    padding: 5px;
+    font-size: 18px;
     border: none;
-    color: azure;
-    text-decoration: none;
-    
+    border-radius: 5px;
+    background-color: #FF900E;
+    color: #FFFF;
+
 }
 .architech-banner{
-    position: absolute;
-    width: 800px;
-    height: 450px;
-    left: 360px;
-    top: 712px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
 }
 .architech-banner img{
-    height: 100%;
-    width: 100%;
+    width: 90%;
+    
 }
+/*-----------------------
+ architects-intro model end 
+-------------------------------- */
+
+/* architects-intro resondive style  */
+.hide{
+    display: none;
+}
+
+@media only screen and (max-width: 576px) {
+        
+        .architech-intro{
+            flex-direction: column;
+        }
+        .architects-link{
+            display: flex;
+            flex-direction: column;
+        }
+        .architects-title{
+            justify-content: center;
+        }
+        .architects-details{
+            justify-content: center;    
+        }
+
+}
+
+/* --------------------------
+features collection style start here
+------------------------------ */
 .features{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -127,12 +155,40 @@ header{
    color: #727272;
 }
 .features-button{
-   
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
 }
 .button-details{
-   
+    height: 60px;
+    width: 153px;
+    margin-top: 30px;
+    margin-left: -492px;
+    padding: 5px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF900E;
+    color: #FFFF;
+}
+
+@media only screen and (max-width: 576px) {
+    .features{
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+    .features-banner{
+        grid-template-columns: repeat(1, 1fr);
+    }
 
 }
+/* --------------------------------
+features collection style end here
+ -----------------------------------*/
+
+ /* ..............................
+ all features colection style 
+ ................................ */
 .all-features{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -141,7 +197,7 @@ header{
 }
 .enjoy-features{
     height: 800px;
-    width: 412px;
+    width: 50%;
     margin-left: 85px;
     margin-top: 98px;
 }
@@ -155,7 +211,7 @@ header{
 }
 .enjoy-title-name{
     position: absolute;
-    width: 468px;
+    width: 52%;
     height: 106px;
     left: 116px;
     top: 2164px;
@@ -164,7 +220,7 @@ header{
     color: rgb(19, 19, 19);
 }
 .enjoy-title-details{
-    width: 586px;
+    width: 56%;
     height: 78px;
     left: 268px;
     margin-top: 122px;
@@ -195,19 +251,40 @@ header{
     color: #727272;
 }
 .features-banner img{
+    position: relative;
     width: 100%;
 
 }
+.fact{
+    margin-left: 95px;
+}
+@media only screen and (max-width: 576px) {
+    .all-features{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
+/* -------------------------------
+year experience style
+ ---------------------- */
 .year{
-    height: 63px;
-    width: 108px;
+    position: absolute;
+    height: 113px;
+    width: 214px;
+    border-radius: 8px;
+    text-align: center;
     background-color: #FF900E;
     color: #fffefe;
-    margin-left: 691px;
-    margin-top: -317px; 
+    margin-top: -338px;
+    margin-left: 649px;
+    text-align: center;
 }
-.fact{
-    margin-left: 85px;
+.year-details{
+    text-align: center;
+    margin-top: 20px;
+}
+.year-title{
+    font-size: 20px;
 }
 .fact-title{
     width: 258px;
@@ -225,12 +302,21 @@ header{
     width: 646px;
     color: #727272;
 }
+
+/* ........................................
+features collection style end
+..................................... */
+
+/* ............................
+our achivment things
+............................ */
 .achivment{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
     justify-content: center;
     gap: 140px;
-    margin-left: 295px;
-    margin-top: 316px;
+    margin-left: 111px;
+    margin-top: 103px;
 }
 .award{
     height: 140px;
@@ -253,9 +339,21 @@ header{
     text-align: center;
     color: #424242;
 }
+@media only screen and (max-width: 576px) {
+    .achivment{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+/* .......................
+ our achivment style end here
+.................................. */
+
+/* ...............................
+sponsor site style start 
+..................................... */
 .sponsor{
    justify-content: center;
-
+    margin-top: 10px;
 }
 .sponsor-title{
     position: absolute;
@@ -280,11 +378,22 @@ header{
     color: #727272;
 }
 .sponsor-banner{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     justify-content: center;
     margin-top: 357px;
     gap: 76px;
 }
+@media only screen and (max-width: 576px) {
+    .sponsor-banner{
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+    }
+}
+/* ................................
+sponsor style end here 
+.............................. */
+
 .copyright{
     position: absolute;
     width: 1082px;
